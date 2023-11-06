@@ -203,7 +203,7 @@ my_arriaga <- function(mx1, mx2){
 ES %>% 
   group_by(Sex) %>% 
   mutate(deltax = my_arriaga(Mx_1950, Mx_2000)) %>% 
-  summarize(Delta = sum(deltax)) # saem result
+  summarize(Delta = sum(deltax)) # same result
 
 ```
 
